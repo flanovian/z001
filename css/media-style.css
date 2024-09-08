@@ -1,0 +1,320 @@
+/* Media Query */
+
+
+/* Extra small devices (phones, kurang dari 400px) */
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 12px;
+    }
+
+    /* Navbar */
+    .navbar-brand {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .navbar-brand img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
+    .dropdown-menu {
+        font-size: 12px;
+    }
+
+    .nav-button-daftar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* End Navbar */
+
+    /* Hero section */
+    #hero {
+        background-size: cover;
+    }
+
+    .box-hero-2 {
+        display: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tex-hero {
+        padding-top: 10px;
+    }
+
+    .Sekolah-Dasar-Islam-Terpadu {
+        padding-top: 20px;
+        font-size: 15px;
+        /* Corrected from 20x to 20px */
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .Zata-Amani-Islamic-School {
+        font-size: 27px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .tagl {
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .hero-tagline {
+        height: 30vh;
+    }
+
+    .card-style[for="chero"] {
+        background-size: contain no-repeat center;
+    }
+
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 10px; */
+    }
+
+    .description p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .description h4 {
+        font-size: 13px;
+    }
+
+    .card-style>.row-style>.icon-style00 {
+        width: 20px;
+    }
+
+    .card-style>.row-style>.icon-style {
+        width: 20px;
+        height: 20px;
+        margin: 6px;
+    }
+
+    .card-style>.row-style>.description {
+        height: 65px;
+    }
+
+    .row-hero-1 {
+        margin-left: 5px;
+    }
+
+    .container-style {
+        height: 300px;
+        width: 100%;
+        padding: .5rem;
+        margin-top: .25rem;
+    }
+
+    .content-utama-hero {
+        padding-right: 0;
+    }
+
+    .card-style {
+        width: 15px;
+    }
+
+    .card-styleZ,
+    .card-styleI {
+        display: none;
+    }
+
+    .box-content-hero-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PENDAFTARAN-SISWA-BARU {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .Tahun-Ajaran-20242025 {
+        font-size: 10px;
+    }
+
+    .img-fluid {
+        width: 78%;
+        height: 88%;
+        /* padding-top: 10px;         */
+    }
+
+    .text-chero {
+        display: none;
+    }
+
+    .row-col {
+        padding-top: 1px;
+    }
+
+    .Zais-Primary-Edu02 {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    /* End Hero Section */
+
+    /* Section Smabutan */
+    .bkg-sambutan {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-sam {
+        flex-direction: column;
+    }
+
+    .sam-img img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .arabic-text {
+        font-size: 23px;
+    }
+
+    .card-sambutan p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* End Section Sambutan */
+
+    /* Section Program */
+    .bckg-program {
+        padding: 10px;
+    }
+
+    .text-program h2 {
+        font-size: 20px;
+    }
+
+    .sub-title {
+        font-size: 10px;
+    }
+
+    .rl-card-prog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1px;
+    }
+
+    .card-program h3 {
+        padding-top: 10px;
+        font-size: 15px;
+        margin-bottom: .25rem;
+
+    }
+
+    .custom-icon {
+        font-size: 20px;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+
+    .card-program p {
+        font-size: 10px;
+    }
+
+    .card-program {
+        height: 155px;
+        padding: 5px;
+    }
+
+    .bkg-program {
+        padding: 10px;
+    }
+
+    .card-pg {
+        padding-top: 8px;
+    }
+
+    /* End Section Program */
+
+    /* Section Galery */
+    .text-galeri h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn-gal {
+        font-size: 12px;
+    }
+
+    .col-btngal {
+        padding-top: 10px;
+    }
+
+    .btngal {
+        font-size: 10px;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        transform: scale(1.15);
+        opacity: 1;
+        --border-size: 8px;
+        --border-angle: 0turn;
+        background-image: conic-gradient(from var(--border-angle), #323267, #323267, #323267), conic-gradient(from var(--border-angle), transparent 0%, red, orange, yellow, green, blue);
+        background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-animation: bg-spin 3s linear infinite;
+        animation: bg-spin 3s linear infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+
+    .slider-card {
+        height: 200px;
+    }
+
+    /* End Section Galesry */
+
+    /* section testimoni */
+    .testimonials-wrapper h4 {
+        font-size: 12px;
+    }
+
+    .testimonial-carousel {
+        padding-top: 30px;
+    }
+
+    .testimonials-blob {
+        position: relative;
+        left: 80%;
+        width: 1px;
+        height: 1px;
+    }
+
+    /* end section testimoni */
+
+    
+}
+
+
+
+/* End Media Query */
