@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Panggil fungsi loadHTML untuk memuat header dan footer
-    loadHTML('partials/header.html', 'header');
-    loadHTML('partials/footer.html', 'footer');
+    loadHTML('../partials/header.html', 'header');
+    loadHTML('../partials/footer.html', 'footer');
 });
 
 
